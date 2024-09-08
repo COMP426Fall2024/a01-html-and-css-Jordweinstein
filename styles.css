@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fantasy;
+}
+
+/* Navbar */
+nav {
+    background-color: #000e4d;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Content */
+.content {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-family: "Rye", serif;
+}
+
+p {
+    margin: 20px;
+}
+
+#home {
+    background-color: rgb(227, 232, 255);
+}
+
+/* Containers */
+.bubbles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    width: 97%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f0f2fa;
+    padding: 20px;
+    border-radius: 25px;
+    max-width: 50%;
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.03);
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    max-width: 600px;
+}
+
+#characterList {
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 10px 0px;
+    border-radius: 10%;
+
+}
+
+.pictureRow {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 15px;
+    border-radius: 20%;
+}
+
+/* Images */
+.img {
+    border-radius: 30%;
+    aspect-ratio: 1;
+    margin: 15px;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.characterImg {
+    width: 40%;
+    border-radius: 25px;
+}
+
+.imgRow {
+    height: 200px;
+    transition: transform 0.3s ease;
+
+}
+
+.imgRow:hover {
+    transform: scale(1.03);
+}
+
+/* Tables */
+table {
+    width: 80%;
+    outline: black solid 1px;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f2fa;
+}
+
+tr {
+    border-bottom: black solid 1px;
+}
+
+th,
+td {
+    padding: 10px 15px;
+}
+
+.cover {
+    width: 100px;
+}
+
+/* Select */
+select {
+    margin: 15px;
+    background-color: aliceblue;
+    border: black dotted 1px;
+    padding: 5px;
+    border-radius: 20%;
+}
